@@ -1,21 +1,29 @@
-🐦 WingSpotter – Bird Species Identification Platform
+🐦 WingSpotter: Bird Species Classification Model
+WingSpotter is an intelligent bird species classification system that uses EfficientNetB0 and other deep learning models to identify bird species from images with high accuracy and efficiency.
+The project supports biodiversity research and wildlife conservation by automating the identification of bird species from photos captured in the wild.
 
-📌 Project Overview
-WingSpotter is a deep learning-based image classification platform that identifies different species of birds from images.
-The project uses EfficientNetB0 and transfer learning techniques to provide accurate predictions, supporting biodiversity monitoring and conservation efforts.
+🌍 Project Overview
+Bird species identification plays a vital role in biodiversity monitoring and conservation. Manual identification is time-consuming and requires expert knowledge.
+WingSpotter simplifies this process using an AI model trained on bird image datasets to:
+➤ Classify bird species from images
+➤ Analyze model accuracy and feature patterns
+➤ Support ecological data collection and wildlife tracking
 
-Features
-• Upload an image of a bird and get the predicted species.
-• Uses EfficientNetB0 (ImageNet pretrained) for robust feature extraction.
-• Grad-CAM integration to highlight important regions in the image.
-• Simple and interactive interface (Streamlit).
-• Scalable for future bird species datasets.
+✨ Key Features
+➤ Accurate Bird Classification: Classifies multiple bird species with high precision.
+➤ EfficientNetB0 Backbone: Lightweight and efficient model for image recognition.
+➤ Transfer Learning: Uses pre-trained ImageNet weights for faster convergence.
+➤ Explainability: Visualizes model attention using Grad-CAM or feature maps.
+➤ Scalable Architecture: Can easily adapt to new datasets or species.
 
-Results
-• Achieved high accuracy on test dataset.
-• Grad-CAM visualizations help in interpretability.
+🧠 Model Architecture
+The model is built using EfficientNetB0, chosen for its balance of accuracy and efficiency.
+➤ Pre-trained on ImageNet
+➤ Fine-tuned on a custom bird species dataset
+➤ Final layers replaced for classification of n bird species
+➤ Optimized using Adam optimizer and categorical cross-entropy loss
 
-Applications
-• Birdwatching & citizen science.
-• Wildlife research.
-• Conservation efforts.
+🐦 Dataset
+You can use datasets such as:
+➤ Kaggle Bird Species Dataset
+➤ CUB-200-2011 Dataset
